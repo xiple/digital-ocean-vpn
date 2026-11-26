@@ -19,11 +19,11 @@ variable "droplet_image" {
 variable "region" {
   description = "Region for ressource creation"
   type = string
-  default = "fra1"
+  default = "ams3"
 }
 
 variable "vpc_ip_range" {
   description = "VPC CIDR range"
   type = string
-  default = "10.0.0.0/24"
+  default = "192.168.1.0/24"
 }
