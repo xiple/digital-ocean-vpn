@@ -21,9 +21,3 @@ variable "region" {
   type = string
   default = "ams3"
 }
-
-variable "vpc_ip_range" {
-  description = "VPC CIDR range"
-  type = string
-  default = "192.168.1.0/24"
-}
